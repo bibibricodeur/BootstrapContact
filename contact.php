@@ -27,7 +27,7 @@ AND isset($_POST['formMessage']) && !empty($_POST['formMessage']))
     mail($courrielPour, $courrielSujet, $courrielMessage, $courrielEntete);
 
     // Redirection si envoi OK
-    header('Location: https://thierrycharriot.fr');
+    header('Location: https://github.com/bibibricodeur');
 
 } else {
     // Redirection si envoi KO => CHANGER OBLIGATOIREMENT EN PRODUCTION !!!
