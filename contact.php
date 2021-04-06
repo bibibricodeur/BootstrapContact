@@ -22,7 +22,7 @@ AND isset($_POST['formMessage']) && !empty($_POST['formMessage']))
     $courrielEmail  = $formCourriel;
     $courrielMessage= 'De la part de: ' . $formNom . "\r\n" .  'Message: ' . $formMessage;
 
-    // Envoi
+    // Envoyer
     $courrielEntete = 'Répondre à: ' . $courrielEmail;
     mail($courrielPour, $courrielSujet, $courrielMessage, $courrielEntete);
 
