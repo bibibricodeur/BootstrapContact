@@ -17,7 +17,7 @@ AND isset($_POST['formMessage']) && !empty($_POST['formMessage']))
 
     // Préparer envoi
     $courrielNom    = $formNom;
-    $courrielPour   = 'bibibricodeur@gmail.com';
+    $courrielPour   = 'bibibricodeur@chez.lui';
     $courrielSujet  = $formSujet;
     $courrielEmail  = $formCourriel;
     $courrielMessage= 'De la part de: ' . $formNom . "\r\n" .  'Message: ' . $formMessage;
